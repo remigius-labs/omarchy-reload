@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "remi.reload",
+  "name": "Reload",
+  "version": "1.0.0",
+  "author": "remigius-labs",
+  "description": "One bar icon that restarts the Omarchy shell. For plugin tinkerers who reload constantly.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Reload",
+    "description": "Click to restart the shell",
+    "category": "System",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
