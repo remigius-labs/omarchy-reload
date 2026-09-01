@@ -21,7 +21,12 @@ Panel {
     anchors.fill: parent
     bar: root.bar
     text: "󰑓"
-    tooltipText: "Reload the shell"
-    onPressed: root.reload()
+    tooltipText: "Reload the shell · right-click to remove"
+    onPressed: function(b) {
+      if (b === Qt.RightButton)
+        Quickshell.execDetached(["omarchy", "plugin", "disable", "remi.reload"])
+      else
+        root.reload()
+    }
   }
 }
