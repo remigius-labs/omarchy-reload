@@ -1,5 +1,7 @@
 # Reload
 
+![Reload](preview.png)
+
 One bar icon (󰑓) that restarts the [Omarchy](https://omarchy.org) shell.
 
 If you build or tweak shell plugins, you reload constantly. This makes it one
